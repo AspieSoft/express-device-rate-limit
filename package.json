@@ -1,0 +1,40 @@
+{
+  "name": "@aspiesoft/express-device-rate-limit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=production && pm2 start index.js",
+    "test": "nodemon test/index.js",
+    "build": "node test/build.js"
+  },
+  "author": "AspieSoft",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "js",
+    "express",
+    "npm",
+    "rate-limit",
+    "rate",
+    "limit",
+    "device",
+    "region",
+    "geo",
+    "location"
+  ],
+  "dependencies": {
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "express": "^4.18.1",
+    "miniforge-js": "^1.2.0",
+    "turbx": "0.0.12"
+  },
+  "optionalDependencies": {
+    "body-parser": "^1.20.0",
+    "express-device": "^0.4.2",
+    "geoip-lite": "^1.4.5"
+  }
+}

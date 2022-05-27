@@ -1,0 +1,6 @@
+.npmignore
+.gitignore
+.github
+node_modules
+test
+index.js
