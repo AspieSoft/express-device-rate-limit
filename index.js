@@ -82,7 +82,7 @@ function clean(input, allowControlChars = false) {
       return null;
     } else if(input === undefined) {
       return undefined;
-    } else if(input === NaN) {
+    } else if(Number.isNaN(input)) {
       return NaN;
     }
 
