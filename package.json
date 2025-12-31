@@ -33,7 +33,7 @@
     "turbx": "0.5.1"
   },
   "optionalDependencies": {
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.4",
     "express-device": "^0.4.2",
     "geoip-lite": "^1.4.7"
   }
